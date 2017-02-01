@@ -4,7 +4,7 @@ import uiModules from 'ui/modules';
 import uiRoutes from 'ui/routes';
 
 import 'ui/autoload/styles';
-import './less/main.less';
+import './less/main.css';
 import template from './templates/index.html';
 
 uiRoutes.enable();
