@@ -4,7 +4,7 @@
   "description": "An awesome Kibana plugin",
   "main": "index.js",
   "kibana": {
-    "version": "5.1.1"
+    "version": "5.1.0"
   },
   "scripts": {
     "lint": "eslint",
@@ -21,9 +21,5 @@
     "chai": "^3.5.0",
     "eslint": "1.10.3",
     "eslint-plugin-mocha": "1.1.0"
-  },
-  "dependencies": {
-    "css-loader": "^0.26.1",
-    "lodash": "^4.17.4"
   }
 }
