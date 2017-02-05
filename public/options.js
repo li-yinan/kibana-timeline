@@ -27,6 +27,7 @@ export var options = {
         data : ['房租','水电费','交通费','伙食费','日用品数','总费用']
     },
     xAxis: {
+        scale: true,
         position: 'top',
         type : 'value'
     },

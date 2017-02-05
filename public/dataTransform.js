@@ -30,9 +30,9 @@ export function transform(data) {
 
     let fieldNames = buckets.map(bucket => bucket.key);
 
-    let startTime = buckets.map(bucket => bucket[startTimeId].value)
+    let startTime = buckets.map(bucket => bucket[startTimeId].value.toFixed(3))
 
-    let duration = buckets.map(bucket => bucket[durationId].value)
+    let duration = buckets.map(bucket => bucket[durationId].value.toFixed(3))
 
     return {
         fieldNames,
