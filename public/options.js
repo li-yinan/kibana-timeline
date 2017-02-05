@@ -1,18 +1,18 @@
 export var options = {
     title: {
-        text: '深圳月最低生活费组成（单位:元）',
-        subtext: 'From ExcelHome',
-        sublink: 'http://e.weibo.com/1341556070/AjQH99che'
+        text: 'graphql 查询耗时'
+        // subtext: 'From ExcelHome',
+        // sublink: 'http://e.weibo.com/1341556070/AjQH99che'
     },
     tooltip: {
         trigger: 'axis',
         axisPointer: {            // 坐标轴指示器，坐标轴触发有效
             type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
-        },
-        formatter: function (params) {
-            var tar = params[1];
-            return tar.name + '<br/>' + tar.seriesName + ' : ' + tar.value;
-        }
+        } // ,
+        // formatter: function (params) {
+        //     var tar = params[1];
+        //     return tar.name + '<br/>' + tar.seriesName + ' : ' + tar.value;
+        // }
     },
     grid: {
         left: '3%',
@@ -53,7 +53,7 @@ export var options = {
             stack: '总量',
             label: {
                 normal: {
-                    show: true,
+                    show: false,
                     position: 'inside'
                 }
             },

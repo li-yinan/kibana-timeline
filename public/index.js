@@ -21,28 +21,19 @@ function GTimelineVisProvider(Private) {
     },
     schemas : new Schemas([ {
       group : 'metrics',
-      name : 'metric',
-      title : 'Value',
+      name : 'Y-axis',
+      title : 'Y-axis',
       min : 1,
-      max : 1,
       aggFilter : [ 'count', 'avg', 'sum', 'min', 'max', 'cardinality' ]
     }, {
       group : 'buckets',
-      name : 'viewBy',
+      name : 'field',
       icon : 'fa fa-eye',
-      title : 'View by',
+      title : 'field',
       mustBeFirst : true,
-      min : 0,
-      max : 1,
-      aggFilter : 'terms'
-    }, {
-      group : 'buckets',
-      name : 'timeSplit',
-      icon : 'fa fa-th',
-      title : 'Time field',
       min : 1,
       max : 1,
-      aggFilter : 'date_histogram'
-    } ])
+      aggFilter : 'terms'
+    }])
   });
 };
