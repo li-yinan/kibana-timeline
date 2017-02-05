@@ -32,7 +32,7 @@ export var options = {
     },
     series: [
         {
-            name: '辅助',
+            name: '起始时间',
             type: 'bar',
             stack:  '总量',
             itemStyle: {
@@ -48,7 +48,7 @@ export var options = {
             data: [1700, 1400, 1200, 300, 0, 0]
         },
         {
-            name: '生活费',
+            name: '查询耗时',
             type: 'bar',
             stack: '总量',
             label: {
