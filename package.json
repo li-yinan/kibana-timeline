@@ -6,6 +6,11 @@
   "kibana": {
     "version": "5.2.0"
   },
+  "keywords": [
+    "kibana",
+    "timeline",
+    "plugin"
+  ],
   "scripts": {
     "lint": "eslint",
     "start": "plugin-helpers start",

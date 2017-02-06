@@ -1,6 +1,6 @@
 export var options = {
     title: {
-        text: 'graphql 查询耗时'
+        text: 'graphql 查询耗时（单位：毫秒）'
         // subtext: 'From ExcelHome',
         // sublink: 'http://e.weibo.com/1341556070/AjQH99che'
     },
